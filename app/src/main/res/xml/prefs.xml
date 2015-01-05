@@ -1,0 +1,37 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/personal_info">
+            <ListPreference
+                android:key="gender"
+                android:title="Gender"
+                android:summary="What is your gender?"
+                android:entries="@array/genders"
+                android:entryValues="@array/genders"></ListPreference>
+            <EditTextPreference
+                android:key="weight"
+                android:title="Weight"
+                android:summary="How much do you weigh (lbs)?"
+                android:dialogTitle="Weight (lbs)"
+                android:inputType="number"></EditTextPreference>
+        </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Notifications">
+
+        <EditTextPreference
+            android:key="food"
+            android:title="Food Notifications"
+            android:summary="After how many drinks would you like to get notified of local food places?"
+            android:dialogTitle="Number of drinks"
+            android:inputType="number"/>
+        <EditTextPreference
+            android:key="hospital"
+            android:title="Hospital Notifications"
+            android:summary="After how many drinks would you like to get notified of local hospitals?"
+            android:dialogTitle="Number of drinks"
+            android:inputType="number"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

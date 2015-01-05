@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BAC_Calculator" >
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/restaurants"
+        android:title="@string/restaurants"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/hospitals"
+        android:title="@string/hospitals"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/drinkMenu"
+        android:title="@string/drinkMenu"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

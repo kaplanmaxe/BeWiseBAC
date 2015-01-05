@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+    android:background="#F24B33">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtPitaname"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="0dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="Hospital" />
+
+        <TextView
+            android:id="@+id/txtPitaaddress"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="0dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/lblsDrinks"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="0dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="Phone" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/txtBAC"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="0dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Upstate Hospital" />
+
+        <TextView
+            android:id="@+id/txtAcropname"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="0dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="750 E. Adams St" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="0dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="315-464-5540" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeWise BAC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="food">Local Food Places</string>
+    <string name="restaurants">Local Restaurants</string>
+    <string name="hospitals">Local Hospitals</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="drinkMenu">Solo Cup Chart</string>
+    <string name="pitapit">1-315-479-0460</string>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F24B33">
+
+    <ImageView
+
+        android:id="@+id/cup_back"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:src="@drawable/solocup"/>
+    <ImageView
+    android:layout_width="162dp"
+    android:layout_height="100dp"
+    android:id="@+id/one_oz"
+
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="408dp" />
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="170dp"
+        android:id="@+id/five_oz"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp" />
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="290dp"
+        android:id="@+id/twelve_oz"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDrinks"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:id="@+id/grpAdd">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Shot"
+        android:id="@+id/btnShot"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/border_left"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Wine"
+        android:id="@+id/btnWine"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btnShot"
+        android:background="@drawable/no_border"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Beer"
+        android:id="@+id/btnBeer"
+        android:layout_alignBottom="@+id/btnWine"
+        android:layout_toRightOf="@+id/btnWine"
+        android:background="@drawable/border_right"
+        android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

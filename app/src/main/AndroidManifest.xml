@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kaplanmaxe.bewisebac" >
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sube_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".BAC_Calculator"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetPreferenceActivity"
+            android:label="@string/notification_settings"
+            android:parentActivityName=".BAC_Calculator">
+        </activity>
+        <activity
+            android:name=".ShowRestaurants"
+            android:label="@string/food"
+            >
+        </activity>
+        <activity
+            android:name=".ShowHospitals"
+            android:label="@string/hospitals"
+            >
+        </activity>
+        <activity
+            android:name=".drinkMenu"
+            android:label="@string/drinkMenu"
+            android:parentActivityName=".BAC_Calculator">
+        </activity>
+        <uses-permission android:name="android.permission.CALL_PHONE"/>
+        <uses-permission android:name="android.permission.VIBRATE"/>
+
+
+    </application>
+
+</manifest>

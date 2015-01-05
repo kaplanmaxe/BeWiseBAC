@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#F24B33"
+    tools:context=".BAC_Calculator">
+    <FrameLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/fragment_container"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Blood Alchohol Content:"
+        android:id="@+id/lblBAC"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:paddingBottom="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0.0000"
+        android:id="@+id/txtBAC"
+        android:layout_below="@id/lblBAC"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:paddingBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Number of Drinks:"
+        android:id="@+id/lblDrinks"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtBAC"
+        android:textColor="#ffffff"
+        android:paddingBottom="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/txtDrinks"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lblDrinks"
+        android:textColor="#ffffff"
+        android:paddingBottom="15dp"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDrinks"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="50dp"
+        android:id="@+id/grpAdd">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="-"
+            android:id="@+id/btnClear"
+            android:layout_height="35dp"
+            android:background="@drawable/border_left"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="+"
+            android:id="@+id/btnAdd"
+            android:background="@drawable/border_right"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Number of Hours:"
+        android:id="@+id/lblHours"
+        android:layout_below="@id/grpAdd"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:paddingBottom="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/txtHours"
+        android:layout_below="@id/lblHours"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:paddingBottom="15dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHours"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="-"
+            android:id="@+id/btnClearHour"
+            android:background="@drawable/border_left"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="+"
+            android:id="@+id/btnAddHour"
+            android:background="@drawable/border_right"
+            android:textColor="#ffffff"
+            />
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>
